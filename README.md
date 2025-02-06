@@ -21,7 +21,7 @@ Built with XGBoost, SMOTE for balancing, and multi-output classification and dep
 
 🔹 Add More Features (e.g., Family History, Diet, Sleep Patterns)
 
-#📞 Contact
+# 📞 Contact
 
 💡 Created by Anuoluwapo
 
