@@ -4,7 +4,7 @@ import pandas as pd
 
 # Load the trained multi-output model
 model = joblib.load("xgboost_multi_output_model.pkl")
-st.title('# Stroke and Heart Disease Detected')
+st.title('Stroke and Heart Disease Detected')
 
 st.markdown("### Enter Patient Details")
 
@@ -12,8 +12,8 @@ st.markdown("### Enter Patient Details")
 bmi = st.number_input("BMI", min_value=12, max_value=100)
 smoker = st.selectbox("Are you a smoker?", ["No", "Yes"])
 drink = st.selectbox("Do you drink?", ["No", "Yes"])
-ph = st.number_input("Rate your Physical Health", min_value=0, max_value=30)
-mh = st.number_input("Rate your Mental Health", min_value=0, max_value=30)
+ph = st.number_input("Rate your Physical Health (with 0 being the minimum and 30 the maximum)", min_value=0, max_value=30)
+mh = st.number_input("Rate your Mental Health (with 0 being the minimum and 30 the maximum)", min_value=0, max_value=30)
 diffWalking = st.selectbox("Do you have difficulty walking?", ["No", "Yes"])
 sex = st.selectbox("Gender", ["Female", "Male"])
 age = st.selectbox("Age", ['18-24', '25-29', '30-34', '35-39', '40-44', '45-49', '50-54', '55-59','60-64', '65-69', '70-74', '75-79', '80 or older'])
