@@ -27,4 +27,4 @@ Built with XGBoost, SMOTE for balancing, and multi-output classification and dep
 
 📧 Email: anuoluwapolorimi25@gmail.com
 
-🩺 Try the App & Predict Your Risk! 🚀
+🩺 Try the App & Predict Your Risk!https://stroke-and-heart-disease-predictor.onrender.com 🚀
